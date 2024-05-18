@@ -33,12 +33,24 @@
 - filter_incidents:
   - Takes a dataframe, column name, and list
   - returns a dataframe where the columns incidents are contained in the list
-  
+
 - calc_monthly_percentages:
   - Given a dataframe and a list of cahoots call signs, it returns the percentage of cahoots calls out of total calls by month
   - Returns a dataframe containing Time - the year and month, and Percentage - the percent of Cahoots calls
 
+- 
+
 ### **Analysis**
+#### **What I did**
+- Plotted Monthly Percent of Cahoots Calls out of total CAD calls. Labeled first occurrence of each new call sign
+- Plotted each individual call percent as part of the whole
+- Plotted each individual percent out of the total cahoots calls
+- Computed the average percentage of calls handled for each call sign in each given time period
+- Found the count of each cahoots call sign per month and plotted those against the total CAD calls
+- Zoomed in on previous graph to show total count of Cad calls and calls per sign
+- Made a scatter plot for Cahoots calls vs total calls differentiated by time period to show correlation between added capacity and call volume
+
+#### **Observations**
 - The first thing I noticed once I had begun analysis was the fact that there was a large number of calls with the call sign "CAHOT". These calls however, ended up almost all containing dispositions that implied no action was taken or the call was canceled. Therefore I chose to filter out those Dispositions, and not analyze the CAHOT call sign
 - I also chose to ignore the Cahoots shift 3J81 because there were only 7 calls in that set after cleaning. (This is a Springfield shift)
 
