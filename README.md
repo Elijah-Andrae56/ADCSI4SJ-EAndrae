@@ -165,5 +165,5 @@ For questions or suggestions, please open an issue or contact the maintainer.
 
 ## Acknowledgments
 
-* Course: ADCSI4SJ (project repository and slide deck indicate this is a final project).
+* Course: ADCSI4SJ.
 * Thanks to collaborators and reviewers who provided feedback on the analysis workflow.
