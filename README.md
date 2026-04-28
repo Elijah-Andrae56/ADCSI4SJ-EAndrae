@@ -157,7 +157,6 @@ All outputs are generated directly in the notebooks with `matplotlib`. Save figu
 
 ## License
 
-If you intend for this project to be open source, add a license (e.g., MIT). Create a `LICENSE` file and reference it here.
 
 ## Contact
 
